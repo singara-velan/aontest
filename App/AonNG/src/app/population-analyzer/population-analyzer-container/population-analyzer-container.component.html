@@ -1,0 +1,26 @@
+<article class="container" *ngIf="!isBusy">
+    <header class="text-center">
+        <h1>Population Analyzer</h1>
+    </header>
+    <section class="analyzer-container">
+        <div class="mr-4">
+            <h2 class="primary-text-color">{{countryPopulation.name}}</h2>
+            <table class="custom-table">
+                <thead>
+                    <th>Top 10 States</th>
+                    <th>Population</th>
+                </thead>
+                <tbody>
+                    <tr class="table-row" *ngFor="let statePop of countryPopulation.states; let i = index;" (mouseover)="setSelectedState(statePop)"
+                        (mouseout)="setSelectedState()">
+                        <td>{{statePop.name}}</td>
+                        <td [ngStyle]="{ backgroundColor: getBgColor(i, countryPopulation.states.length)}">{{statePop.totalPopulation}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <app-population-demographic-detail [demography]="getDemographyDetail()" [country]="countryPopulation.name"></app-population-demographic-detail>
+        </div>
+    </section>
+</article>

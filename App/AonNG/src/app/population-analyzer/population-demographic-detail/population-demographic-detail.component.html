@@ -1,0 +1,38 @@
+<article>
+    <header class="mb-3">
+        <h2 class="primary-text-color">Total Population <span *ngIf="country !== demography.name">- {{demography.name}}</span></h2>
+        <h2 class="secondary-text-color">{{demography.totalPopulation | round:0}}</h2>
+    </header>
+
+    <div class="gender-conainer mb-3">
+        <div>
+            <h3>Male</h3>
+            <h3 class="secondary-text-color">{{demography.male | round:0}}</h3>
+        </div>
+        <div>
+            <h3>Female</h3>
+            <h3 class="secondary-text-color">{{demography.female | round:0}}</h3>
+        </div>
+    </div>
+    <div>
+        <table class="custom-table">
+            <thead>
+                <tr>
+                    <th>Age</th>
+                    <th>Male</th>
+                    <th>Female</th>
+                    <th>Total</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr *ngFor="let ageGroups of demography.ageGroups">
+                    <td>{{ageGroups.ageGroup}}</td>
+                    <td class="secondary-text-color">{{ageGroups.male | round:0}}</td>
+                    <td class="secondary-text-color">{{ageGroups.female | round:0}}</td>
+                    <td class="secondary-text-color">{{ageGroups.totalPopulation | round:0}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</article>

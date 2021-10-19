@@ -1,0 +1,15 @@
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    th, td {
+        padding: 1rem 1rem 1rem 0;
+    }
+}
+
+.gender-conainer {
+    display: flex;
+    > div {
+        flex: 1 1 0;
+    }
+}

@@ -1,0 +1,356 @@
+{
+    "countryPopulation": {
+        "name": "Japan",
+        "states": [
+            {
+                "name": "Tokyo-to",
+                "ageGroups": [
+                    {
+                        "ageGroup": "Below 20",
+                        "male": 4755957,
+                        "female": 4049739,
+                        "totalPopulation": 8805696
+                    },
+                    {
+                        "ageGroup": "20-40",
+                        "male": 1235520,
+                        "female": 2245165,
+                        "totalPopulation": 3480685
+                    },
+                    {
+                        "ageGroup": "40-60",
+                        "male": 2447507,
+                        "female": 1809100,
+                        "totalPopulation": 4256607
+                    },
+                    {
+                        "ageGroup": "Above 60",
+                        "male": 6119541,
+                        "female": 5138122,
+                        "totalPopulation": 11257663
+                    }
+                ],
+                "male": 14558525,
+                "female": 13242126,
+                "totalPopulation": 27800651
+            },
+            {
+                "name": "Kanagawa-ken",
+                "ageGroups": [
+                    {
+                        "ageGroup": "Below 20",
+                        "male": 4102361,
+                        "female": 4265639,
+                        "totalPopulation": 8368000
+                    },
+                    {
+                        "ageGroup": "20-40",
+                        "male": 2960348,
+                        "female": 1936635,
+                        "totalPopulation": 4896983
+                    },
+                    {
+                        "ageGroup": "40-60",
+                        "male": 735675,
+                        "female": 4037327,
+                        "totalPopulation": 4773002
+                    },
+                    {
+                        "ageGroup": "Above 60",
+                        "male": 3895980,
+                        "female": 354328,
+                        "totalPopulation": 4250308
+                    }
+                ],
+                "male": 11694364,
+                "female": 10593929,
+                "totalPopulation": 22288293
+            },
+            {
+                "name": "Aichi-ken",
+                "ageGroups": [
+                    {
+                        "ageGroup": "Below 20",
+                        "male": 1751836,
+                        "female": 1682470,
+                        "totalPopulation": 3434306
+                    },
+                    {
+                        "ageGroup": "20-40",
+                        "male": 3056291,
+                        "female": 45717,
+                        "totalPopulation": 3102008
+                    },
+                    {
+                        "ageGroup": "40-60",
+                        "male": 2722545,
+                        "female": 3229115,
+                        "totalPopulation": 5951660
+                    },
+                    {
+                        "ageGroup": "Above 60",
+                        "male": 2375338,
+                        "female": 3600438,
+                        "totalPopulation": 5975776
+                    }
+                ],
+                "male": 9906010,
+                "female": 8557740,
+                "totalPopulation": 18463750
+            },
+            {
+                "name": "Osaka-fu",
+                "ageGroups": [
+                    {
+                        "ageGroup": "Below 20",
+                        "male": 4059650,
+                        "female": 3101048,
+                        "totalPopulation": 7160698
+                    },
+                    {
+                        "ageGroup": "20-40",
+                        "male": 914250,
+                        "female": 675041,
+                        "totalPopulation": 1589291
+                    },
+                    {
+                        "ageGroup": "40-60",
+                        "male": 3614535,
+                        "female": 598310,
+                        "totalPopulation": 4212845
+                    },
+                    {
+                        "ageGroup": "Above 60",
+                        "male": 2184380,
+                        "female": 1430006,
+                        "totalPopulation": 3614386
+                    }
+                ],
+                "male": 10772815,
+                "female": 5804405,
+                "totalPopulation": 16577220
+            },
+            {
+                "name": "Saitama-ken",
+                "ageGroups": [
+                    {
+                        "ageGroup": "Below 20",
+                        "male": 1675428,
+                        "female": 512248,
+                        "totalPopulation": 2187676
+                    },
+                    {
+                        "ageGroup": "20-40",
+                        "male": 1511871,
+                        "female": 205611,
+                        "totalPopulation": 1717482
+                    },
+                    {
+                        "ageGroup": "40-60",
+                        "male": 2463752,
+                        "female": 855633,
+                        "totalPopulation": 3319385
+                    },
+                    {
+                        "ageGroup": "Above 60",
+                        "male": 1535760,
+                        "female": 3140418,
+                        "totalPopulation": 4676178
+                    }
+                ],
+                "male": 7186811,
+                "female": 4713910,
+                "totalPopulation": 11900721
+            },
+            {
+                "name": "Hokkaido",
+                "ageGroups": [
+                    {
+                        "ageGroup": "Below 20",
+                        "male": 894424,
+                        "female": 477074,
+                        "totalPopulation": 1371498
+                    },
+                    {
+                        "ageGroup": "20-40",
+                        "male": 873946,
+                        "female": 1232940,
+                        "totalPopulation": 2106886
+                    },
+                    {
+                        "ageGroup": "40-60",
+                        "male": 2146143,
+                        "female": 686633,
+                        "totalPopulation": 2832776
+                    },
+                    {
+                        "ageGroup": "Above 60",
+                        "male": 1960661,
+                        "female": 1358897,
+                        "totalPopulation": 3319558
+                    }
+                ],
+                "male": 5875174,
+                "female": 3755544,
+                "totalPopulation": 9630718
+            },
+            {
+                "name": "Hyogo-ken",
+                "ageGroups": [
+                    {
+                        "ageGroup": "Below 20",
+                        "male": 1920024,
+                        "female": 206834,
+                        "totalPopulation": 2126858
+                    },
+                    {
+                        "ageGroup": "20-40",
+                        "male": 1205295,
+                        "female": 763670,
+                        "totalPopulation": 1968965
+                    },
+                    {
+                        "ageGroup": "40-60",
+                        "male": 1280350,
+                        "female": 564292,
+                        "totalPopulation": 1844642
+                    },
+                    {
+                        "ageGroup": "Above 60",
+                        "male": 1664498,
+                        "female": 1766209,
+                        "totalPopulation": 3430707
+                    }
+                ],
+                "male": 6070167,
+                "female": 3301005,
+                "totalPopulation": 9371172
+            },
+            {
+                "name": "Chiba-ken",
+                "ageGroups": [
+                    {
+                        "ageGroup": "Below 20",
+                        "male": 365022,
+                        "female": 1795888,
+                        "totalPopulation": 2160910
+                    },
+                    {
+                        "ageGroup": "20-40",
+                        "male": 1404672,
+                        "female": 1169853,
+                        "totalPopulation": 2574525
+                    },
+                    {
+                        "ageGroup": "40-60",
+                        "male": 310396,
+                        "female": 1914045,
+                        "totalPopulation": 2224441
+                    },
+                    {
+                        "ageGroup": "Above 60",
+                        "male": 737344,
+                        "female": 1527152,
+                        "totalPopulation": 2264496
+                    }
+                ],
+                "male": 2817434,
+                "female": 6406938,
+                "totalPopulation": 9224372
+            },
+            {
+                "name": "Ibaraki-ken",
+                "ageGroups": [
+                    {
+                        "ageGroup": "Below 20",
+                        "male": 1101552,
+                        "female": 1271290,
+                        "totalPopulation": 2372842
+                    },
+                    {
+                        "ageGroup": "20-40",
+                        "male": 523857,
+                        "female": 945476,
+                        "totalPopulation": 1469333
+                    },
+                    {
+                        "ageGroup": "40-60",
+                        "male": 1125351,
+                        "female": 1375390,
+                        "totalPopulation": 2500741
+                    },
+                    {
+                        "ageGroup": "Above 60",
+                        "male": 687184,
+                        "female": 954964,
+                        "totalPopulation": 1642148
+                    }
+                ],
+                "male": 3437944,
+                "female": 4547120,
+                "totalPopulation": 7985064
+            },
+            {
+                "name": "Shizuoka-ken",
+                "ageGroups": [
+                    {
+                        "ageGroup": "Below 20",
+                        "male": 285553,
+                        "female": 1117696,
+                        "totalPopulation": 1403249
+                    },
+                    {
+                        "ageGroup": "20-40",
+                        "male": 1603784,
+                        "female": 1415307,
+                        "totalPopulation": 3019091
+                    },
+                    {
+                        "ageGroup": "40-60",
+                        "male": 162994,
+                        "female": 1320036,
+                        "totalPopulation": 1483030
+                    },
+                    {
+                        "ageGroup": "Above 60",
+                        "male": 861741,
+                        "female": 594403,
+                        "totalPopulation": 1456144
+                    }
+                ],
+                "male": 2914072,
+                "female": 4447442,
+                "totalPopulation": 7361514
+            }
+        ],
+        "ageGroups": [
+            {
+                "ageGroup": "Below 20",
+                "male": 37306577,
+                "female": 32593030,
+                "totalPopulation": 69899607
+            },
+            {
+                "ageGroup": "20-40",
+                "male": 28133209,
+                "female": 25854021,
+                "totalPopulation": 53987230
+            },
+            {
+                "ageGroup": "40-60",
+                "male": 28899537,
+                "female": 29203655,
+                "totalPopulation": 58103192
+            },
+            {
+                "ageGroup": "Above 60",
+                "male": 33986623,
+                "female": 34387741,
+                "totalPopulation": 68374364
+            }
+        ],
+        "male": 128325946,
+        "female": 122038447,
+        "totalPopulation": 250364393
+    }
+}
